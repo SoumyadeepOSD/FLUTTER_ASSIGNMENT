@@ -69,7 +69,6 @@ Widget leftSection(
     Container(
       margin: const EdgeInsets.all(2.0),
       decoration: BoxDecoration(
-        color: Colors.purple,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Column(
@@ -98,7 +97,7 @@ Widget leftSection(
           ),
           //testimonals
           Container(
-            color: screenWidth < 500 ? Colors.black : Colors.pink,
+            color: Colors.black,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -109,7 +108,7 @@ Widget leftSection(
                       vertical: 27,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.green,
+                      color: const Color.fromARGB(255, 0, 255, 149),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     margin: const EdgeInsets.all(10),
@@ -141,7 +140,7 @@ Widget leftSection(
                       vertical: 27,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.yellow,
+                      color: Colors.yellow.shade700,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     margin: const EdgeInsets.all(10),
@@ -173,7 +172,7 @@ Widget leftSection(
                       vertical: 27,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.red,
+                      color: Colors.red.shade300,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     margin: const EdgeInsets.all(10),
@@ -235,7 +234,7 @@ Widget rightSection(
     Container(
       margin: const EdgeInsets.all(2.0),
       decoration: BoxDecoration(
-        color: Colors.blue,
+        color: Colors.black,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Column(
@@ -246,7 +245,7 @@ Widget rightSection(
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.indigo,
+                  color: backgroundColor,
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 margin: const EdgeInsets.only(
@@ -265,7 +264,7 @@ Widget rightSection(
               ),
               Expanded(
                 child: Container(
-                  color: Colors.brown,
+                  color: Colors.black,
                   height: (screenHeight / 2),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -454,7 +453,7 @@ Widget testimonalSection(double screenWidth) => Container(
       padding: const EdgeInsetsDirectional.all(10.0),
       height: screenWidth < 500 ? 700 : 500,
       decoration: BoxDecoration(
-        color: screenWidth > 500 ? Colors.green : cardbackgroundColor,
+        color: cardbackgroundColor,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Column(
@@ -644,7 +643,7 @@ Widget MyButton(
             vertical: screenHeight * 0.03,
             horizontal: screenWidth * 0.03,
           ),
-          backgroundColor: const Color.fromARGB(255, 89, 0, 255),
+          backgroundColor: Colors.purpleAccent.shade700,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
           ),
@@ -672,7 +671,7 @@ Widget MyButton(
 Widget TopBar = Container(
   padding: const EdgeInsets.all(10.0),
   decoration: BoxDecoration(
-    color: Colors.deepPurpleAccent.shade700,
+    color: cardbackgroundColor,
     borderRadius: BorderRadius.circular(8.0),
   ),
   child: Row(
