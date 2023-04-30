@@ -1,17 +1,14 @@
-# gridapp
+# This is an assignment task for flutter
 
-A new Flutter project.
+## You can see the demo reponsive screen here 👇
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://user-images.githubusercontent.com/115442240/235363034-c5b51547-dbae-4fee-80af-6de25d757d65.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# FLUTTER_ASSIGNMENT
+![image](https://user-images.githubusercontent.com/115442240/235363079-d29fca75-c711-439e-8aeb-45b2e7c7e337.png)
+
+
+## Feel free to give me valuable suggestion regarding this design
+
